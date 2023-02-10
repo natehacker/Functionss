@@ -22,3 +22,37 @@ let person = people.reduce((accumulator,currentValue)=>{
     return accumulator + currentValue
 },0)
 console.log(person)
+
+// lets reverse a array instead of a string 
+let nate = [1,2,3,4]
+nate.reverse()
+console.log(nate)
+
+// another reduce method for muscle memory 
+let water = [50,50]
+let ocean = water.reduce((accumulator,currentValue)=>{
+return accumulator + currentValue
+},0)
+console.log(ocean)
+
+// one more 
+let soda =[2,34,56,6]
+let ice = soda.reduce((accumulator,currentValue)=>{
+return accumulator + currentValue
+},0)
+console.log(ice)
+ // random do the fizz buzz question 
+function fizzBuzz(){
+    for(i=1; i < 50; i++){
+if(i % 2)
+console.log("works")
+else if (i % 4 )
+console.log("also by 4")
+else if (i % 10)
+console.log("works by 10 too ")
+else 
+console.log("none of the other numbers matter")
+    }
+
+}
+fizzBuzz()
