@@ -56,3 +56,25 @@ console.log("none of the other numbers matter")
 
 }
 fizzBuzz()
+
+let jesus = [2,2,2,2,2,2,2,2,2,2]
+let God = jesus.reduce((accumulator,currentValue)=>{
+return accumulator + currentValue
+},0)
+console.log(God)
+
+//revese a string
+let person1 = "nathan" 
+.split("")
+.reverse("")
+.join("")
+console.log(person1)
+
+
+//lets create an object a retrieve some data from it 
+const nathan = {
+    age:20,
+    Gender:"Male",
+    Job:"software engineer"
+}
+console.log(nathan.Gender)
