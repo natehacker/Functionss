@@ -33,3 +33,9 @@ console.log(book)
 const numbers = [1,3,2,4,7,6]
 numbers.sort();
 console.log(numbers)
+let youtube = Boolean(11 === 1)
+if (Boolean = true){
+    console.log("this works")
+}else{
+    console.log("does not work")
+}
