@@ -20,3 +20,16 @@ console.log(myShovel)
 //flase values
 const flasyvalue1 = false;
 console.log(flasyvalue1)
+// Boolean functions
+let hello = Boolean(10 > 20 );
+console.log(hello)
+// true values
+let less = Boolean(11 > 2)
+console.log(less)
+
+let book = Boolean(20 > 2)
+console.log(book)
+// sort function javascript
+const numbers = [1,3,2,4,7,6]
+numbers.sort();
+console.log(numbers)
